@@ -1,0 +1,1258 @@
+top - 23:51:27 up 1 day, 21:55,  1 user,  load average: 74,93, 75,29, 72,69
+Tasks: 307 total,   7 running, 257 sleeping,   8 stopped,   0 zombie
+%Cpu(s): 60,4 us, 32,0 sy,  0,3 ni,  6,5 id,  0,8 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1008868 total,    65300 free,   584904 used,   358664 buff/cache
+KiB Swap:   998396 total,   492028 free,   506368 used.   244520 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+31997 devilri+  20   0   19748   2472   2224 R 13,6  0,2 376:43.56 bash
+ 1935 devilri+  20   0 1341308 114556  14468 S  9,1 11,4 362:20.66 compiz
+ 2764 devilri+  20   0  640420   4804   2552 R  9,1  0,5 262:46.13 mplayer
+ 7031 devilri+  20   0   19752   2396   2148 R  9,1  0,2 387:13.98 bash
+17322 devilri+  20   0  640428   4812   2540 R  9,1  0,5 262:44.89 mplayer
+ 1447 root      20   0  468276  51280   3080 S  4,5  5,1  42:12.50 Xorg
+17056 devilri+  20   0   49016   3896   3328 R  4,5  0,4   0:00.01 top
+    1 root      20   0  119668   3684   2276 S  0,0  0,4   0:04.55 systemd
+    2 root      20   0       0      0      0 S  0,0  0,0   0:00.02 kthreadd
+    4 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 R  0,0  0,0  11:35.92 ksoftirqd/0
+    8 root      20   0       0      0      0 R  0,0  0,0   9:05.38 rcu_sched
+    9 root      20   0       0      0      0 I  0,0  0,0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0,0  0,0   0:00.47 watchdog/0
+   12 root      20   0       0      0      0 S  0,0  0,0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_tasks_kthre
+   16 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kauditd
+   17 root      20   0       0      0      0 S  0,0  0,0   0:00.11 khungtaskd
+   18 root      20   0       0      0      0 S  0,0  0,0   0:00.00 oom_reaper
+   19 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 writeback
+   20 root      20   0       0      0      0 S  0,0  0,0   0:00.01 kcompactd0
+   21 root      25   5       0      0      0 S  0,0  0,0   0:00.00 ksmd
+   22 root      39  19       0      0      0 S  0,0  0,0   0:00.00 khugepaged
+   23 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 crypto
+   24 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kintegrityd
+   25 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kblockd
+   26 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ata_sff
+   27 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 md
+   28 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 edac-poller
+   29 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 devfreq_wq
+   30 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 watchdogd
+   34 root      20   0       0      0      0 S  0,0  0,0   0:11.39 kswapd0
+   35 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/u3:0
+   36 root      20   0       0      0      0 S  0,0  0,0   0:00.00 ecryptfs-kthrea
+   78 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kthrotld
+   79 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 acpi_thermal_pm
+   80 root      20   0       0      0      0 S  0,0  0,0   0:00.01 scsi_eh_0
+   81 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_0
+   82 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_1
+   83 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_1
+   89 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ipv6_addrconf
+   98 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kstrp
+  115 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 charger_manager
+  165 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_2
+  167 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ttm_swap
+  168 root     -51   0       0      0      0 S  0,0  0,0   0:00.00 irq/18-vmwgfx
+  171 root       0 -20       0      0      0 I  0,0  0,0   0:04.42 kworker/0:1H
+  193 root      20   0       0      0      0 S  0,0  0,0   0:02.06 jbd2/sda1-8
+  194 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ext4-rsv-conver
+  229 root      20   0   28468   1068    872 S  0,0  0,1   0:00.56 systemd-journal
+  366 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 iprt-VBoxWQueue
+  566 devilri+  20   0   49000   3936   3368 S  0,0  0,4   0:05.67 top
+  601 devilri+  20   0  193044   1324   1060 S  0,0  0,1   0:00.10 gvfsd-metadata
+  606 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:08.89 top
+  610 root      20   0   28676    140      0 S  0,0  0,0   0:00.47 systemd-logind
+  612 syslog    20   0  256392    184      0 S  0,0  0,0   0:00.20 rsyslogd
+  624 root      20   0   36076   1336   1236 S  0,0  0,1   0:00.23 cron
+  626 message+  20   0   44432   2976   1516 S  0,0  0,3   0:14.08 dbus-daemon
+  652 avahi     20   0   44912    868    736 S  0,0  0,1   0:00.13 avahi-daemon
+  658 root      20   0    4396    388    372 S  0,0  0,0   0:01.67 acpid
+  664 root      20   0  282952    544     88 S  0,0  0,1   0:02.46 accounts-daemon
+  666 root      20   0  382416   6316   4980 S  0,0  0,6   0:00.47 NetworkManager
+  734 avahi     20   0   44784     20      0 S  0,0  0,0   0:00.00 avahi-daemon
+  750 devilri+  20   0   48980   4100   3376 S  0,0  0,4   0:03.79 top
+  763 root      20   0  289260   3344    904 S  0,0  0,3   0:00.75 polkitd
+  803 root      20   0  181680   1132   1132 S  0,0  0,1   0:00.19 unattended-upgr
+  853 nobody    20   0   59932     84      0 S  0,0  0,0   0:00.11 dnsmasq
+  908 devilri+  20   0   19612   2360   2160 T  0,0  0,2   0:00.00 bash
+  909 whoopsie  20   0  373992   1072   1048 S  0,0  0,1   0:00.04 whoopsie
+  911 devilri+  20   0   48868   2224   1624 T  0,0  0,2   0:00.04 top
+ 1008 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:09.53 top
+ 1388 root      20   0  129532      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1389 root      20   0  129692    644    644 S  0,0  0,1   0:00.00 VBoxClient
+ 1404 root      20   0  276648    336     88 S  0,0  0,0   0:00.04 lightdm
+ 1426 root      20   0  385516     40      0 S  0,0  0,0   0:22.36 VBoxService
+ 1444 root      20   0   23004    384    384 S  0,0  0,0   0:00.00 agetty
+ 1476 root      20   0  228240   1020   1020 S  0,0  0,1   0:00.01 lightdm
+ 1481 devilri+  20   0   45292   1616   1200 S  0,0  0,2   0:00.09 systemd
+ 1482 devilri+  20   0  145172      4      0 S  0,0  0,0   0:00.00 (sd-pam)
+ 1485 devilri+  20   0   53540   1944   1044 S  0,0  0,2   0:00.43 upstart
+ 1499 devilri+  20   0   57332      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1500 devilri+  20   0  191772    208      0 S  0,0  0,0   0:00.54 VBoxClient
+ 1506 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1507 devilri+  20   0   57464    260    252 S  0,0  0,0   0:00.05 VBoxClient
+ 1511 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1512 devilri+  20   0  189568      0      0 S  0,0  0,0   0:00.04 VBoxClient
+ 1516 devilri+  20   0   57332      8      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1517 devilri+  20   0  190084      0      0 S  0,0  0,0   4:10.85 VBoxClient
+ 1595 root      20   0  100304   1664   1664 S  0,0  0,2   0:00.01 cupsd
+ 1596 root      20   0  274812    852    852 S  0,0  0,1   0:00.02 cups-browsed
+ 1638 devilri+  20   0   39928    560    488 S  0,0  0,1   0:00.04 upstart-udev-br
+ 1640 devilri+  20   0   43812   2140    992 S  0,0  0,2   0:10.58 dbus-daemon
+ 1652 devilri+  20   0   93416   3340   3128 S  0,0  0,3   0:00.47 window-stack-br
+ 1677 devilri+  20   0   39860     80      0 S  0,0  0,0   0:02.07 upstart-dbus-br
+ 1679 devilri+  20   0   39860    436    308 S  0,0  0,0   0:00.83 upstart-dbus-br
+ 1683 devilri+  20   0   48352     80      0 S  0,0  0,0   0:00.01 upstart-file-br
+ 1684 devilri+  20   0  356280   8068   2852 S  0,0  0,8   0:52.88 ibus-daemon
+ 1691 devilri+  20   0  212276   1760   1276 S  0,0  0,2   0:00.13 gnome-keyring-d
+ 1709 devilri+  20   0  355316    928    536 S  0,0  0,1   0:00.18 gvfsd
+ 1721 devilri+  20   0  406864    480    480 S  0,0  0,0   0:00.01 gvfsd-fuse
+ 1723 devilri+  20   0  645048  10292   6792 S  0,0  1,0   0:14.62 bamfdaemon
+ 1725 devilri+  20   0  271328   1076    844 S  0,0  0,1   0:00.02 ibus-dconf
+ 1727 devilri+  20   0  602092   7128   3812 S  0,0  0,7   0:15.13 ibus-ui-gtk3
+ 1735 devilri+  20   0  551104   1616    952 S  0,0  0,2   0:01.10 ibus-x11
+ 1740 devilri+  20   0  173604    496    336 S  0,0  0,0   0:03.77 gpg-agent
+ 1751 devilri+  20   0  338000    880    880 S  0,0  0,1   0:00.00 at-spi-bus-laun
+ 1758 devilri+  20   0   43012   1452   1132 S  0,0  0,1   0:00.91 dbus-daemon
+ 1765 devilri+  20   0  206972   2000   1588 S  0,0  0,2   0:02.78 at-spi2-registr
+ 1771 devilri+  20   0  656040  11636   6176 S  0,0  1,2   0:10.36 hud-service
+ 1773 devilri+  20   0  934636   6344   3504 S  0,0  0,6   0:06.14 unity-settings-
+ 1779 devilri+  20   0  640344   1540    852 S  0,0  0,2   0:00.62 gnome-session-b
+ 1791 devilri+  20   0  577336  13128   5940 S  0,0  1,3   0:16.66 unity-panel-ser
+ 1814 root      20   0  354212   1512   1072 S  0,0  0,1   0:01.74 upowerd
+ 1829 devilri+  20   0  195588    548    224 S  0,0  0,1   0:14.44 ibus-engine-sim
+ 1831 devilri+  20   0  361484   1024   1024 S  0,0  0,1   0:00.01 indicator-messa
+ 1832 devilri+  20   0  414180    392    392 S  0,0  0,0   0:00.01 indicator-bluet
+ 1833 devilri+  20   0  576540   1268    580 S  0,0  0,1   0:00.38 indicator-power
+ 1834 devilri+  20   0  781636   3912   2564 S  0,0  0,4   0:01.97 indicator-datet
+ 1835 devilri+  20   0  664384   2312    780 S  0,0  0,2   0:01.45 indicator-keybo
+ 1836 devilri+  20   0  678536    748    240 S  0,0  0,1   0:00.09 indicator-sound
+ 1837 devilri+  20   0  554444   2140   1272 S  0,0  0,2   0:01.10 indicator-print
+ 1838 devilri+  20   0  632260   2556   1920 S  0,0  0,3   0:00.37 indicator-sessi
+ 1848 devilri+  20   0  178768   1512   1036 S  0,0  0,1   0:00.89 dconf-service
+ 1856 devilri+  20   0  403148   1696   1372 S  0,0  0,2   0:00.07 indicator-appli
+ 1937 devilri+  20   0  922284   1104   1104 S  0,0  0,1   0:00.14 evolution-sourc
+ 1942 colord    20   0  308208   1000   1000 S  0,0  0,1   0:00.15 colord
+ 1953 devilri+   9 -11  442136   1716   1508 S  0,0  0,2   0:01.82 pulseaudio
+ 1954 rtkit     21   1  183544    612    612 S  0,0  0,1   0:01.04 rtkit-daemon
+ 1961 devilri+  20   0  870076   1180   1180 S  0,0  0,1   0:00.25 evolution-calen
+ 1984 devilri+  20   0  604620   4580   3236 S  0,0  0,5   0:01.24 nm-applet
+ 1992 devilri+  20   0  292512    584      0 S  0,0  0,1   0:00.17 gvfs-udisks2-vo
+ 1998 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:12.69 top
+ 2005 devilri+  20   0  969240  19736   7468 S  0,0  2,0   0:21.16 nautilus
+ 2014 devilri+  20   0  583932   1708    900 S  0,0  0,2   0:01.37 unity-fallback-
+ 2016 root      20   0  432408    968    668 S  0,0  0,1   0:00.74 udisksd
+ 2020 devilri+  20   0  436432   2548   1856 S  0,0  0,3   0:01.22 polkit-gnome-au
+ 2047 devilri+  20   0 1043964  97860  10408 S  0,0  9,7   0:37.03 gnome-software
+ 2050 devilri+  20   0  823060    652      0 S  0,0  0,1   0:00.16 evolution-calen
+ 2065 devilri+  20   0  807308    864      0 S  0,0  0,1   0:00.18 evolution-calen
+ 2070 devilri+  20   0  697636   1016   1016 S  0,0  0,1   0:00.05 evolution-addre
+ 2083 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:07.44 top
+ 2089 devilri+  20   0  266592    960    632 S  0,0  0,1   0:00.08 gvfs-mtp-volume
+ 2095 devilri+  20   0  264604    628    312 S  0,0  0,1   0:00.08 gvfs-goa-volume
+ 2101 devilri+  20   0  410676    332     16 S  0,0  0,0   0:00.09 gvfs-afc-volume
+ 2140 devilri+  20   0  278788    644    320 S  0,0  0,1   0:00.09 gvfs-gphoto2-vo
+ 2161 devilri+  20   0  773136   1020   1020 S  0,0  0,1   0:00.05 evolution-addre
+ 2189 devilri+  20   0  357644    860    212 S  0,0  0,1   0:00.26 gvfsd-trash
+ 2205 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:10.09 top
+ 2215 devilri+  20   0  559316   2832   2152 S  0,0  0,3   0:03.16 zeitgeist-datah
+ 2218 root      20   0  511956  21016    848 S  0,0  2,1   0:03.61 fwupd
+ 2225 devilri+  20   0    4504      0      0 S  0,0  0,0   0:00.00 sh
+ 2237 devilri+  20   0  410228   4600   3716 S  0,0  0,5   0:01.42 zeitgeist-daemo
+ 2248 devilri+  20   0  317268   4724   3496 S  0,0  0,5   0:02.28 zeitgeist-fts
+ 2289 devilri+  20   0  672688  19680   9220 S  0,0  2,0   1:14.89 gnome-terminal-
+ 2313 devilri+  20   0  531208   8696   6908 S  0,0  0,9   0:04.12 update-notifier
+ 2371 devilri+  20   0   48972   4052   3336 S  0,0  0,4   0:04.10 top
+ 2406 devilri+  20   0  524448    696    696 S  0,0  0,1   0:00.04 deja-dup-monito
+ 2933 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:08.89 top
+ 3067 devilri+  20   0   48996   4000   3376 S  0,0  0,4   0:12.82 top
+ 3161 lp        20   0   81244   1312   1312 S  0,0  0,1   0:00.00 dbus
+ 3236 devilri+  20   0   49000   3924   3364 S  0,0  0,4   0:09.54 top
+ 3579 devilri+  20   0   48976   4064   3336 S  0,0  0,4   0:03.83 top
+ 3670 devilri+  20   0   48996   4036   3312 S  0,0  0,4   0:08.47 top
+ 3791 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:09.71 top
+ 4174 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:10.18 top
+ 4523 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:05.38 top
+ 4648 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:12.52 top
+ 4789 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:12.98 top
+ 5428 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+ 5429 devilri+  20   0   19616   1584   1348 T  0,0  0,2   0:00.00 bash
+ 5430 devilri+  20   0   14512     64      0 T  0,0  0,0   0:00.00 cat
+ 5431 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+ 5647 devilri+  20   0   48964   4104   3376 S  0,0  0,4   0:04.66 top
+ 5854 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:06.45 top
+ 6094 devilri+  20   0   49000   3996   3376 S  0,0  0,4   0:12.82 top
+ 6240 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:07.94 top
+ 6243 devilri+  20   0   49000   3896   3328 S  0,0  0,4   0:05.64 top
+ 6421 devilri+  20   0  360004   1700   1192 S  0,0  0,2   0:00.03 gvfsd-network
+ 6480 devilri+  20   0  368784    932    932 S  0,0  0,1   0:00.03 gvfsd-dnssd
+ 6505 devilri+  20   0   48996   4056   3328 S  0,0  0,4   0:09.85 top
+ 6548 devilri+  20   0   48980   4068   3336 S  0,0  0,4   0:03.72 top
+ 6731 devilri+  20   0   49000   3904   3344 S  0,0  0,4   0:07.83 top
+ 7110 devilri+  20   0   48968   4092   3376 S  0,0  0,4   0:04.42 top
+ 7333 devilri+  20   0   29736   2920   2424 S  0,0  0,3   0:00.47 bash
+ 7561 devilri+  20   0   49000   3908   3344 S  0,0  0,4   0:06.96 top
+ 8221 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:12.85 top
+ 8222 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+ 8715 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:05.99 top
+ 8822 root      20   0   45436     52      0 S  0,0  0,0   0:00.26 systemd-udevd
+ 8871 devilri+  20   0   49000   3872   3312 S  0,0  0,4   0:08.69 top
+ 8900 devilri+  20   0   49000   3904   3336 S  0,0  0,4   0:04.93 top
+ 8989 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:08.59 top
+ 8994 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:2
+ 9159 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:09.78 top
+ 9769 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:09.49 top
+ 9788 root      20   0       0      0      0 I  0,0  0,0   0:03.84 kworker/0:0
+10433 devilri+  20   0   48996   4092   3364 S  0,0  0,4   0:08.65 top
+10578 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:09.89 top
+11234 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+11235 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+11321 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:09.48 top
+11388 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:08.74 top
+12167 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:08.81 top
+12207 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:09.90 top
+12479 devilri+  20   0   49000   3944   3376 S  0,0  0,4   0:05.25 top
+12834 root      20   0   16128   3716   2864 S  0,0  0,4   0:00.01 dhclient
+13097 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:2
+13108 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:3
+13518 devilri+  20   0   49000   3888   3328 S  0,0  0,4   0:08.62 top
+13661 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:08.86 top
+13828 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:06.51 top
+13848 devilri+  20   0   49000   3944   3376 S  0,0  0,4   0:04.67 top
+14120 devilri+  20   0   49000   3944   3376 S  0,0  0,4   0:04.91 top
+14233 devilri+  20   0  880276  39768  28700 S  0,0  3,9   0:29.06 gedit
+14614 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:08.55 top
+14984 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:09.69 top
+15048 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:08.81 top
+15260 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:06.09 top
+15346 devilri+  20   0   48980   4060   3336 S  0,0  0,4   0:03.80 top
+16051 root      20   0   47624   1560   1164 S  0,0  0,2   0:00.06 rpcbind
+16058 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:12.56 top
+16470 devilri+  20   0   48980   4092   3368 S  0,0  0,4   0:03.62 top
+16485 devilri+  20   0   48984   4052   3336 S  0,0  0,4   0:14.53 top
+16639 devilri+  20   0   48972   4020   3304 S  0,0  0,4   0:04.15 top
+16967 devilri+  20   0   19616   3208   2984 S  0,0  0,3   0:00.00 bash
+17057 devilri+  20   0   14356    700    632 S  0,0  0,1   0:00.00 sleep
+17137 devilri+  20   0   48996   4040   3312 S  0,0  0,4   0:10.10 top
+17563 devilri+  20   0   48968   4092   3376 S  0,0  0,4   0:04.50 top
+17651 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:08.85 top
+17986 devilri+  20   0   48976   4024   3304 S  0,0  0,4   0:03.92 top
+18260 devilri+  20   0   48996   4060   3336 S  0,0  0,4   0:10.63 top
+18603 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:07.93 top
+18877 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:07.84 top
+19012 devilri+  20   0   29696   4352   2424 S  0,0  0,4   0:00.07 bash
+19441 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:05.77 top
+19951 devilri+  20   0   48996   4064   3336 S  0,0  0,4   0:10.93 top
+19991 devilri+  20   0   48996   4136   3408 S  0,0  0,4   0:08.58 top
+20219 root      20   0   62096   1512   1508 S  0,0  0,1   0:00.00 sudo
+20253 devilri+  20   0   48996   4040   3312 S  0,0  0,4   0:09.79 top
+20310 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:09.82 top
+20317 devilri+  20   0   48996   3888   3336 S  0,0  0,4   0:09.59 top
+20884 devilri+  20   0   49000   3944   3376 S  0,0  0,4   0:05.45 top
+21039 devilri+  20   0   48964   4096   3368 S  0,0  0,4   0:04.57 top
+21063 devilri+  20   0   48988   4056   3336 S  0,0  0,4   0:14.56 top
+21082 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:09.41 top
+21380 devilri+  20   0   48976   4092   3376 S  0,0  0,4   0:03.92 top
+21709 devilri+  20   0   48988   4064   3344 S  0,0  0,4   0:12.89 top
+21710 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+21827 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:06.36 top
+21853 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:07.36 top
+22007 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:08.76 top
+22012 root      20   0       0      0      0 I  0,0  0,0   0:00.57 kworker/0:1
+22192 root      20   0       0      0      0 I  0,0  0,0   0:00.01 kworker/u2:1
+22323 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:07.23 top
+22484 devilri+  20   0   48996   3884   3328 S  0,0  0,4   0:09.76 top
+22829 root      20   0   14512      0      0 S  0,0  0,0   0:00.00 cat
+22937 devilri+  20   0   49000   3900   3336 S  0,0  0,4   0:06.31 top
+23278 devilri+  20   0   29696   4240   2312 S  0,0  0,4   0:00.03 bash
+23285 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:07.87 top
+23496 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:06.19 top
+23509 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:05.76 top
+23519 devilri+  20   0   48988   3976   3364 S  0,0  0,4   0:12.93 top
+23520 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.12 tail
+23999 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:0
+24311 devilri+  20   0   48996   4060   3336 S  0,0  0,4   0:09.58 top
+24449 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:06.36 top
+24868 devilri+  30  10  741464  23928   3516 S  0,0  2,4   0:10.86 update-manager
+25577 devilri+  20   0   49000   3872   3304 S  0,0  0,4   0:04.80 top
+25878 devilri+  20   0   48992   3952   3336 S  0,0  0,4   0:12.82 top
+25879 devilri+  20   0   14392    732    664 S  0,0  0,1   0:00.11 tail
+26646 devilri+  20   0   48972   4048   3328 S  0,0  0,4   0:04.06 top
+26791 devilri+  20   0   49000   3944   3376 S  0,0  0,4   0:05.60 top
+27268 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:10.10 top
+27958 devilri+  20   0   49000   3940   3376 S  0,0  0,4   0:06.86 top
+28267 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:07.70 top
+28697 devilri+  20   0   48996   3888   3336 S  0,0  0,4   0:10.10 top
+28796 devilri+  20   0   49000   3892   3336 S  0,0  0,4   0:09.00 top
+28810 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:12.80 top
+28963 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:07.95 top
+29243 devilri+  20   0   48980   4100   3376 S  0,0  0,4   0:03.63 top
+29491 devilri+  20   0   48996   4100   3376 S  0,0  0,4   0:08.72 top
+29675 devilri+  20   0   49000   3932   3376 S  0,0  0,4   0:10.04 top
+30138 devilri+  20   0   49000   3932   3368 S  0,0  0,4   0:07.36 top
+30343 devilri+  20   0   48976   4112   3392 S  0,0  0,4   0:03.93 top
+30676 devilri+  20   0   48996   4104   3376 S  0,0  0,4   0:10.01 top
+30885 devilri+  20   0   49000   3952   3328 S  0,0  0,4   0:12.68 top
+30900 devilri+  20   0   49000   3896   3336 S  0,0  0,4   0:08.59 top
+31350 devilri+  20   0   49000   3896   3328 S  0,0  0,4   0:04.57 top
+31548 devilri+  20   0   48972   4056   3336 S  0,0  0,4   0:04.13 top
+31596 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:08.77 top
+31625 devilri+  20   0   49000   3892   3336 S  0,0  0,4   0:09.50 top
+32094 devilri+  20   0   49000   3904   3336 S  0,0  0,4   0:05.26 top
+32253 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfsalloc
+32254 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfs_mru_cache
+32268 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsIO
+32270 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsCommit
+32271 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsSync
+32342 devilri+  20   0   49000   3936   3376 S  0,0  0,4   0:06.60 top
+32391 devilri+  20   0   48996   4060   3336 S  0,0  0,4   0:10.02 top
+32554 devilri+  20   0   48992   4100   3376 S  0,0  0,4   0:12.79 top
+32555 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+32606 devilri+  20   0   48996   3992   3368 S  0,0  0,4   0:12.66 top
+
+top - 23:51:33 up 1 day, 21:55,  1 user,  load average: 78,78, 76,08, 72,96
+Tasks: 306 total, 118 running, 144 sleeping,   8 stopped,   0 zombie
+%Cpu(s): 61,6 us, 38,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1008868 total,    64852 free,   585044 used,   358972 buff/cache
+KiB Swap:   998396 total,   492028 free,   506368 used.   244280 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+17322 devilri+  20   0  640428   4812   2540 R 21,8  0,5 262:45.55 mplayer
+31997 devilri+  20   0   19748   2472   2224 R 20,8  0,2 376:44.19 bash
+ 2764 devilri+  20   0  640420   4804   2552 R 16,2  0,5 262:46.62 mplayer
+ 7031 devilri+  20   0   19752   2396   2148 R 15,8  0,2 387:14.46 bash
+ 1935 devilri+  20   0 1341308 114556  14468 R  9,9 11,4 362:20.96 compiz
+ 1447 root      20   0  468276  51280   3080 S  2,0  5,1  42:12.56 Xorg
+    7 root      20   0       0      0      0 S  0,7  0,0  11:35.94 ksoftirqd/0
+  566 devilri+  20   0   49000   3936   3368 R  0,7  0,4   0:05.69 top
+ 1998 devilri+  20   0   48996   4104   3376 R  0,7  0,4   0:12.71 top
+ 2083 devilri+  20   0   49000   3900   3336 R  0,7  0,4   0:07.46 top
+13518 devilri+  20   0   49000   3888   3328 R  0,7  0,4   0:08.64 top
+13661 devilri+  20   0   48996   4064   3336 R  0,7  0,4   0:08.88 top
+14120 devilri+  20   0   49000   3944   3376 R  0,7  0,4   0:04.93 top
+16058 devilri+  20   0   48996   4104   3376 R  0,7  0,4   0:12.58 top
+16470 devilri+  20   0   48980   4092   3368 R  0,7  0,4   0:03.64 top
+21039 devilri+  20   0   48964   4096   3368 R  0,7  0,4   0:04.59 top
+23509 devilri+  20   0   49000   3940   3376 R  0,7  0,4   0:05.78 top
+28810 devilri+  20   0   48996   4104   3376 R  0,7  0,4   0:12.82 top
+30885 devilri+  20   0   49000   3952   3328 R  0,7  0,4   0:12.70 top
+31596 devilri+  20   0   49000   3936   3376 R  0,7  0,4   0:08.79 top
+32391 devilri+  20   0   48996   4060   3336 R  0,7  0,4   0:10.04 top
+    8 root      20   0       0      0      0 I  0,3  0,0   9:05.39 rcu_sched
+ 1517 devilri+  20   0  190084      0      0 S  0,3  0,0   4:10.86 VBoxClient
+ 2205 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:10.10 top
+ 2289 devilri+  20   0  672688  19680   9220 S  0,3  2,0   1:14.90 gnome-terminal-
+ 2933 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:08.90 top
+ 3067 devilri+  20   0   48996   4000   3376 R  0,3  0,4   0:12.83 top
+ 3236 devilri+  20   0   49000   3924   3364 R  0,3  0,4   0:09.55 top
+ 3670 devilri+  20   0   48996   4036   3312 R  0,3  0,4   0:08.48 top
+ 3791 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:09.72 top
+ 4174 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:10.19 top
+ 4523 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:05.39 top
+ 4648 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:12.53 top
+ 5647 devilri+  20   0   48964   4104   3376 S  0,3  0,4   0:04.67 top
+ 6094 devilri+  20   0   49000   3996   3376 R  0,3  0,4   0:12.83 top
+ 6505 devilri+  20   0   48996   4056   3328 R  0,3  0,4   0:09.86 top
+ 6548 devilri+  20   0   48980   4068   3336 R  0,3  0,4   0:03.73 top
+ 7561 devilri+  20   0   49000   3908   3344 R  0,3  0,4   0:06.97 top
+ 8715 devilri+  20   0   49000   3900   3336 S  0,3  0,4   0:06.00 top
+ 9769 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:09.50 top
+10433 devilri+  20   0   48996   4092   3364 R  0,3  0,4   0:08.66 top
+11388 devilri+  20   0   49000   3896   3336 R  0,3  0,4   0:08.75 top
+12167 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:08.82 top
+12207 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:09.91 top
+12479 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:05.26 top
+13828 devilri+  20   0   49000   3940   3376 R  0,3  0,4   0:06.52 top
+13848 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:04.68 top
+14614 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:08.56 top
+14984 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:09.70 top
+15048 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:08.82 top
+15260 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:06.10 top
+15346 devilri+  20   0   48980   4060   3336 R  0,3  0,4   0:03.81 top
+16485 devilri+  20   0   48984   4052   3336 R  0,3  0,4   0:14.54 top
+16639 devilri+  20   0   48972   4020   3304 R  0,3  0,4   0:04.16 top
+17056 devilri+  20   0   48984   4060   3328 R  0,3  0,4   0:00.02 top
+17137 devilri+  20   0   48996   4040   3312 R  0,3  0,4   0:10.11 top
+17563 devilri+  20   0   48968   4092   3376 R  0,3  0,4   0:04.51 top
+18877 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:07.85 top
+19441 devilri+  20   0   49000   3940   3376 R  0,3  0,4   0:05.78 top
+20253 devilri+  20   0   48996   4040   3312 R  0,3  0,4   0:09.80 top
+20310 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:09.83 top
+20884 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:05.46 top
+21380 devilri+  20   0   48976   4092   3376 R  0,3  0,4   0:03.93 top
+21709 devilri+  20   0   48988   4064   3344 R  0,3  0,4   0:12.90 top
+21827 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:06.37 top
+22323 devilri+  20   0   49000   3940   3376 R  0,3  0,4   0:07.24 top
+22937 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:06.32 top
+24311 devilri+  20   0   48996   4060   3336 R  0,3  0,4   0:09.59 top
+24449 devilri+  20   0   49000   3940   3376 R  0,3  0,4   0:06.37 top
+25577 devilri+  20   0   49000   3872   3304 R  0,3  0,4   0:04.81 top
+26646 devilri+  20   0   48972   4048   3328 R  0,3  0,4   0:04.07 top
+26791 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:05.61 top
+27268 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:10.11 top
+28267 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:07.71 top
+28796 devilri+  20   0   49000   3892   3336 R  0,3  0,4   0:09.01 top
+28963 devilri+  20   0   49000   3896   3336 R  0,3  0,4   0:07.96 top
+29243 devilri+  20   0   48980   4100   3376 R  0,3  0,4   0:03.64 top
+29675 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:10.05 top
+30138 devilri+  20   0   49000   3932   3368 R  0,3  0,4   0:07.37 top
+30676 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:10.02 top
+31548 devilri+  20   0   48972   4056   3336 R  0,3  0,4   0:04.14 top
+32094 devilri+  20   0   49000   3904   3336 R  0,3  0,4   0:05.27 top
+32342 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:06.61 top
+32554 devilri+  20   0   48992   4100   3376 R  0,3  0,4   0:12.80 top
+32606 devilri+  20   0   48996   3992   3368 R  0,3  0,4   0:12.67 top
+    1 root      20   0  119668   3684   2276 S  0,0  0,4   0:04.55 systemd
+    2 root      20   0       0      0      0 S  0,0  0,0   0:00.02 kthreadd
+    4 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 mm_percpu_wq
+    9 root      20   0       0      0      0 I  0,0  0,0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0,0  0,0   0:00.47 watchdog/0
+   12 root      20   0       0      0      0 S  0,0  0,0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_tasks_kthre
+   16 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kauditd
+   17 root      20   0       0      0      0 S  0,0  0,0   0:00.11 khungtaskd
+   18 root      20   0       0      0      0 S  0,0  0,0   0:00.00 oom_reaper
+   19 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 writeback
+   20 root      20   0       0      0      0 S  0,0  0,0   0:00.01 kcompactd0
+   21 root      25   5       0      0      0 S  0,0  0,0   0:00.00 ksmd
+   22 root      39  19       0      0      0 S  0,0  0,0   0:00.00 khugepaged
+   23 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 crypto
+   24 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kintegrityd
+   25 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kblockd
+   26 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ata_sff
+   27 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 md
+   28 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 edac-poller
+   29 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 devfreq_wq
+   30 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 watchdogd
+   34 root      20   0       0      0      0 S  0,0  0,0   0:11.39 kswapd0
+   35 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/u3:0
+   36 root      20   0       0      0      0 S  0,0  0,0   0:00.00 ecryptfs-kthrea
+   78 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kthrotld
+   79 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 acpi_thermal_pm
+   80 root      20   0       0      0      0 S  0,0  0,0   0:00.01 scsi_eh_0
+   81 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_0
+   82 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_1
+   83 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_1
+   89 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ipv6_addrconf
+   98 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kstrp
+  115 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 charger_manager
+  165 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_2
+  167 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ttm_swap
+  168 root     -51   0       0      0      0 S  0,0  0,0   0:00.00 irq/18-vmwgfx
+  171 root       0 -20       0      0      0 I  0,0  0,0   0:04.42 kworker/0:1H
+  193 root      20   0       0      0      0 S  0,0  0,0   0:02.06 jbd2/sda1-8
+  194 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ext4-rsv-conver
+  229 root      20   0   28468   1068    872 S  0,0  0,1   0:00.56 systemd-journal
+  366 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 iprt-VBoxWQueue
+  601 devilri+  20   0  193044   1324   1060 S  0,0  0,1   0:00.10 gvfsd-metadata
+  606 devilri+  20   0   49000   3896   3336 R  0,0  0,4   0:08.89 top
+  610 root      20   0   28676    140      0 S  0,0  0,0   0:00.47 systemd-logind
+  612 syslog    20   0  256392    184      0 S  0,0  0,0   0:00.20 rsyslogd
+  624 root      20   0   36076   1336   1236 S  0,0  0,1   0:00.23 cron
+  626 message+  20   0   44432   2976   1516 S  0,0  0,3   0:14.08 dbus-daemon
+  652 avahi     20   0   44912    868    736 S  0,0  0,1   0:00.13 avahi-daemon
+  658 root      20   0    4396    388    372 S  0,0  0,0   0:01.67 acpid
+  664 root      20   0  282952    544     88 S  0,0  0,1   0:02.46 accounts-daemon
+  666 root      20   0  382416   6316   4980 S  0,0  0,6   0:00.47 NetworkManager
+  734 avahi     20   0   44784     20      0 S  0,0  0,0   0:00.00 avahi-daemon
+  750 devilri+  20   0   48980   4100   3376 R  0,0  0,4   0:03.79 top
+  763 root      20   0  289260   3344    904 S  0,0  0,3   0:00.75 polkitd
+  803 root      20   0  181680   1132   1132 S  0,0  0,1   0:00.19 unattended-upgr
+  853 nobody    20   0   59932     84      0 S  0,0  0,0   0:00.11 dnsmasq
+  908 devilri+  20   0   19612   2360   2160 T  0,0  0,2   0:00.00 bash
+  909 whoopsie  20   0  373992   1072   1048 S  0,0  0,1   0:00.04 whoopsie
+  911 devilri+  20   0   48868   2224   1624 T  0,0  0,2   0:00.04 top
+ 1008 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:09.53 top
+ 1388 root      20   0  129532      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1389 root      20   0  129692    644    644 S  0,0  0,1   0:00.00 VBoxClient
+ 1404 root      20   0  276648    336     88 S  0,0  0,0   0:00.04 lightdm
+ 1426 root      20   0  385516     40      0 S  0,0  0,0   0:22.36 VBoxService
+ 1444 root      20   0   23004    384    384 S  0,0  0,0   0:00.00 agetty
+ 1476 root      20   0  228240   1020   1020 S  0,0  0,1   0:00.01 lightdm
+ 1481 devilri+  20   0   45292   1616   1200 S  0,0  0,2   0:00.09 systemd
+ 1482 devilri+  20   0  145172      4      0 S  0,0  0,0   0:00.00 (sd-pam)
+ 1485 devilri+  20   0   53540   1944   1044 S  0,0  0,2   0:00.43 upstart
+ 1499 devilri+  20   0   57332      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1500 devilri+  20   0  191772    208      0 S  0,0  0,0   0:00.54 VBoxClient
+ 1506 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1507 devilri+  20   0   57464    260    252 S  0,0  0,0   0:00.05 VBoxClient
+ 1511 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1512 devilri+  20   0  189568      0      0 S  0,0  0,0   0:00.04 VBoxClient
+ 1516 devilri+  20   0   57332      8      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1595 root      20   0  100304   1664   1664 S  0,0  0,2   0:00.01 cupsd
+ 1596 root      20   0  274812    852    852 S  0,0  0,1   0:00.02 cups-browsed
+ 1638 devilri+  20   0   39928    560    488 S  0,0  0,1   0:00.04 upstart-udev-br
+ 1640 devilri+  20   0   43812   2140    992 S  0,0  0,2   0:10.58 dbus-daemon
+ 1652 devilri+  20   0   93416   3340   3128 S  0,0  0,3   0:00.47 window-stack-br
+ 1677 devilri+  20   0   39860     80      0 S  0,0  0,0   0:02.07 upstart-dbus-br
+ 1679 devilri+  20   0   39860    436    308 S  0,0  0,0   0:00.83 upstart-dbus-br
+ 1683 devilri+  20   0   48352     80      0 S  0,0  0,0   0:00.01 upstart-file-br
+ 1684 devilri+  20   0  356280   8068   2852 S  0,0  0,8   0:52.88 ibus-daemon
+ 1691 devilri+  20   0  212276   1760   1276 S  0,0  0,2   0:00.13 gnome-keyring-d
+ 1709 devilri+  20   0  355316    928    536 S  0,0  0,1   0:00.18 gvfsd
+ 1721 devilri+  20   0  406864    480    480 S  0,0  0,0   0:00.01 gvfsd-fuse
+ 1723 devilri+  20   0  645048  10292   6792 S  0,0  1,0   0:14.62 bamfdaemon
+ 1725 devilri+  20   0  271328   1076    844 S  0,0  0,1   0:00.02 ibus-dconf
+ 1727 devilri+  20   0  602092   7128   3812 S  0,0  0,7   0:15.13 ibus-ui-gtk3
+ 1735 devilri+  20   0  551104   1616    952 S  0,0  0,2   0:01.10 ibus-x11
+ 1740 devilri+  20   0  173604    496    336 S  0,0  0,0   0:03.77 gpg-agent
+ 1751 devilri+  20   0  338000    880    880 S  0,0  0,1   0:00.00 at-spi-bus-laun
+ 1758 devilri+  20   0   43012   1452   1132 S  0,0  0,1   0:00.91 dbus-daemon
+ 1765 devilri+  20   0  206972   2000   1588 S  0,0  0,2   0:02.78 at-spi2-registr
+ 1771 devilri+  20   0  656040  11636   6176 S  0,0  1,2   0:10.36 hud-service
+ 1773 devilri+  20   0  934636   6344   3504 S  0,0  0,6   0:06.14 unity-settings-
+ 1779 devilri+  20   0  640344   1540    852 S  0,0  0,2   0:00.62 gnome-session-b
+ 1791 devilri+  20   0  577336  13128   5940 S  0,0  1,3   0:16.66 unity-panel-ser
+ 1814 root      20   0  354212   1512   1072 S  0,0  0,1   0:01.74 upowerd
+ 1829 devilri+  20   0  195588    548    224 S  0,0  0,1   0:14.44 ibus-engine-sim
+ 1831 devilri+  20   0  361484   1024   1024 S  0,0  0,1   0:00.01 indicator-messa
+ 1832 devilri+  20   0  414180    392    392 S  0,0  0,0   0:00.01 indicator-bluet
+ 1833 devilri+  20   0  576540   1268    580 S  0,0  0,1   0:00.38 indicator-power
+ 1834 devilri+  20   0  781636   3912   2564 S  0,0  0,4   0:01.97 indicator-datet
+ 1835 devilri+  20   0  664384   2312    780 S  0,0  0,2   0:01.45 indicator-keybo
+ 1836 devilri+  20   0  678536    748    240 S  0,0  0,1   0:00.09 indicator-sound
+ 1837 devilri+  20   0  554444   2140   1272 S  0,0  0,2   0:01.10 indicator-print
+ 1838 devilri+  20   0  632260   2556   1920 S  0,0  0,3   0:00.37 indicator-sessi
+ 1848 devilri+  20   0  178768   1512   1036 S  0,0  0,1   0:00.89 dconf-service
+ 1856 devilri+  20   0  403148   1696   1372 S  0,0  0,2   0:00.07 indicator-appli
+ 1937 devilri+  20   0  922284   1104   1104 S  0,0  0,1   0:00.14 evolution-sourc
+ 1942 colord    20   0  308208   1000   1000 S  0,0  0,1   0:00.15 colord
+ 1953 devilri+   9 -11  442136   1716   1508 S  0,0  0,2   0:01.82 pulseaudio
+ 1954 rtkit     21   1  183544    612    612 S  0,0  0,1   0:01.04 rtkit-daemon
+ 1961 devilri+  20   0  870076   1180   1180 S  0,0  0,1   0:00.25 evolution-calen
+ 1984 devilri+  20   0  604620   4580   3236 S  0,0  0,5   0:01.24 nm-applet
+ 1992 devilri+  20   0  292512    584      0 S  0,0  0,1   0:00.17 gvfs-udisks2-vo
+ 2005 devilri+  20   0  969240  19736   7468 S  0,0  2,0   0:21.16 nautilus
+ 2014 devilri+  20   0  583932   1708    900 S  0,0  0,2   0:01.37 unity-fallback-
+ 2016 root      20   0  432408    968    668 S  0,0  0,1   0:00.74 udisksd
+ 2020 devilri+  20   0  436432   2548   1856 S  0,0  0,3   0:01.22 polkit-gnome-au
+ 2047 devilri+  20   0 1043964  97860  10408 S  0,0  9,7   0:37.03 gnome-software
+ 2050 devilri+  20   0  823060    652      0 S  0,0  0,1   0:00.16 evolution-calen
+ 2065 devilri+  20   0  807308    864      0 S  0,0  0,1   0:00.18 evolution-calen
+ 2070 devilri+  20   0  697636   1016   1016 S  0,0  0,1   0:00.05 evolution-addre
+ 2089 devilri+  20   0  266592    960    632 S  0,0  0,1   0:00.08 gvfs-mtp-volume
+ 2095 devilri+  20   0  264604    628    312 S  0,0  0,1   0:00.08 gvfs-goa-volume
+ 2101 devilri+  20   0  410676    332     16 S  0,0  0,0   0:00.09 gvfs-afc-volume
+ 2140 devilri+  20   0  278788    644    320 S  0,0  0,1   0:00.09 gvfs-gphoto2-vo
+ 2161 devilri+  20   0  773136   1020   1020 S  0,0  0,1   0:00.05 evolution-addre
+ 2189 devilri+  20   0  357644    860    212 S  0,0  0,1   0:00.26 gvfsd-trash
+ 2215 devilri+  20   0  559316   2832   2152 S  0,0  0,3   0:03.16 zeitgeist-datah
+ 2218 root      20   0  511956  21016    848 S  0,0  2,1   0:03.61 fwupd
+ 2225 devilri+  20   0    4504      0      0 S  0,0  0,0   0:00.00 sh
+ 2237 devilri+  20   0  410228   4600   3716 S  0,0  0,5   0:01.42 zeitgeist-daemo
+ 2248 devilri+  20   0  317268   4724   3496 S  0,0  0,5   0:02.28 zeitgeist-fts
+ 2313 devilri+  20   0  531208   8696   6908 S  0,0  0,9   0:04.12 update-notifier
+ 2371 devilri+  20   0   48972   4052   3336 R  0,0  0,4   0:04.10 top
+ 2406 devilri+  20   0  524448    696    696 S  0,0  0,1   0:00.04 deja-dup-monito
+ 3161 lp        20   0   81244   1312   1312 S  0,0  0,1   0:00.00 dbus
+ 3579 devilri+  20   0   48976   4064   3336 R  0,0  0,4   0:03.83 top
+ 4789 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:12.98 top
+ 5428 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+ 5429 devilri+  20   0   19616   1584   1348 T  0,0  0,2   0:00.00 bash
+ 5430 devilri+  20   0   14512     64      0 T  0,0  0,0   0:00.00 cat
+ 5431 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+ 5854 devilri+  20   0   49000   3940   3376 R  0,0  0,4   0:06.45 top
+ 6240 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:07.94 top
+ 6243 devilri+  20   0   49000   3896   3328 R  0,0  0,4   0:05.64 top
+ 6421 devilri+  20   0  360004   1700   1192 S  0,0  0,2   0:00.03 gvfsd-network
+ 6480 devilri+  20   0  368784    932    932 S  0,0  0,1   0:00.03 gvfsd-dnssd
+ 6731 devilri+  20   0   49000   3904   3344 S  0,0  0,4   0:07.83 top
+ 7110 devilri+  20   0   48968   4092   3376 R  0,0  0,4   0:04.42 top
+ 7333 devilri+  20   0   29736   2920   2424 S  0,0  0,3   0:00.47 bash
+ 8221 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:12.85 top
+ 8222 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+ 8822 root      20   0   45436     52      0 S  0,0  0,0   0:00.26 systemd-udevd
+ 8871 devilri+  20   0   49000   3872   3312 R  0,0  0,4   0:08.69 top
+ 8900 devilri+  20   0   49000   3904   3336 R  0,0  0,4   0:04.93 top
+ 8989 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:08.59 top
+ 8994 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:2
+ 9159 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:09.78 top
+ 9788 root      20   0       0      0      0 I  0,0  0,0   0:03.84 kworker/0:0
+10578 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:09.89 top
+11234 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+11235 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+11321 devilri+  20   0   49000   3896   3336 R  0,0  0,4   0:09.48 top
+12834 root      20   0   16128   3716   2864 S  0,0  0,4   0:00.01 dhclient
+13097 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:2
+13108 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:3
+14233 devilri+  20   0  880276  39768  28700 S  0,0  3,9   0:29.06 gedit
+16051 root      20   0   47624   1560   1164 S  0,0  0,2   0:00.06 rpcbind
+16967 devilri+  20   0   19620   3216   2984 S  0,0  0,3   0:00.00 bash
+17651 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:08.85 top
+17986 devilri+  20   0   48976   4024   3304 R  0,0  0,4   0:03.92 top
+18260 devilri+  20   0   48996   4060   3336 R  0,0  0,4   0:10.63 top
+18603 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:07.93 top
+19012 devilri+  20   0   29696   4352   2424 S  0,0  0,4   0:00.07 bash
+19951 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:10.93 top
+19991 devilri+  20   0   48996   4136   3408 R  0,0  0,4   0:08.58 top
+20219 root      20   0   62096   1512   1508 S  0,0  0,1   0:00.00 sudo
+20317 devilri+  20   0   48996   3888   3336 R  0,0  0,4   0:09.59 top
+21063 devilri+  20   0   48988   4056   3336 R  0,0  0,4   0:14.56 top
+21082 devilri+  20   0   49000   3896   3336 R  0,0  0,4   0:09.41 top
+21710 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+21853 devilri+  20   0   49000   3932   3376 R  0,0  0,4   0:07.36 top
+22007 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:08.76 top
+22012 root      20   0       0      0      0 I  0,0  0,0   0:00.57 kworker/0:1
+22192 root      20   0       0      0      0 I  0,0  0,0   0:00.01 kworker/u2:1
+22484 devilri+  20   0   48996   3884   3328 R  0,0  0,4   0:09.76 top
+22829 root      20   0   14512      0      0 S  0,0  0,0   0:00.00 cat
+23278 devilri+  20   0   29696   4240   2312 S  0,0  0,4   0:00.03 bash
+23285 devilri+  20   0   49000   3932   3376 R  0,0  0,4   0:07.87 top
+23496 devilri+  20   0   49000   3940   3376 R  0,0  0,4   0:06.19 top
+23519 devilri+  20   0   48988   3976   3364 R  0,0  0,4   0:12.93 top
+23520 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.12 tail
+23999 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:0
+24868 devilri+  30  10  741464  23928   3516 S  0,0  2,4   0:10.86 update-manager
+25878 devilri+  20   0   48992   3952   3336 R  0,0  0,4   0:12.82 top
+25879 devilri+  20   0   14392    732    664 S  0,0  0,1   0:00.11 tail
+27958 devilri+  20   0   49000   3940   3376 R  0,0  0,4   0:06.86 top
+28697 devilri+  20   0   48996   3888   3336 R  0,0  0,4   0:10.10 top
+29491 devilri+  20   0   48996   4100   3376 R  0,0  0,4   0:08.72 top
+30343 devilri+  20   0   48976   4112   3392 R  0,0  0,4   0:03.93 top
+30900 devilri+  20   0   49000   3896   3336 R  0,0  0,4   0:08.59 top
+31350 devilri+  20   0   49000   3896   3328 R  0,0  0,4   0:04.57 top
+31625 devilri+  20   0   49000   3892   3336 R  0,0  0,4   0:09.50 top
+32253 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfsalloc
+32254 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfs_mru_cache
+32268 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsIO
+32270 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsCommit
+32271 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsSync
+32555 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+
+top - 23:51:42 up 1 day, 21:55,  1 user,  load average: 73,59, 75,05, 72,64
+Tasks: 306 total, 115 running, 147 sleeping,   8 stopped,   0 zombie
+%Cpu(s): 64,5 us, 35,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1008868 total,    63440 free,   584636 used,   360792 buff/cache
+KiB Swap:   998396 total,   492028 free,   506368 used.   244716 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 7031 devilri+  20   0   19752   2396   2148 R 13,9  0,2 387:15.47 bash
+31997 devilri+  20   0   19748   2472   2224 R 13,3  0,2 376:45.16 bash
+17322 devilri+  20   0  640428   4812   2540 R 12,1  0,5 262:46.43 mplayer
+ 2764 devilri+  20   0  640420   4804   2552 R 12,0  0,5 262:47.49 mplayer
+ 1935 devilri+  20   0 1341308 114556  14468 S  9,2 11,4 362:21.63 compiz
+ 1447 root      20   0  468276  51280   3080 S  2,6  5,1  42:12.75 Xorg
+    7 root      20   0       0      0      0 S  0,5  0,0  11:35.98 ksoftirqd/0
+ 2289 devilri+  20   0  672688  19680   9220 S  0,4  2,0   1:14.93 gnome-terminal-
+    8 root      20   0       0      0      0 I  0,3  0,0   9:05.41 rcu_sched
+ 3670 devilri+  20   0   48996   4036   3312 R  0,3  0,4   0:08.50 top
+ 4523 devilri+  20   0   49000   3900   3336 S  0,3  0,4   0:05.41 top
+ 5647 devilri+  20   0   48964   4104   3376 R  0,3  0,4   0:04.69 top
+ 5854 devilri+  20   0   49000   3940   3376 S  0,3  0,4   0:06.47 top
+ 6240 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:07.96 top
+ 6731 devilri+  20   0   49000   3904   3344 R  0,3  0,4   0:07.85 top
+ 7110 devilri+  20   0   48968   4092   3376 R  0,3  0,4   0:04.44 top
+ 8715 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:06.02 top
+ 8871 devilri+  20   0   49000   3872   3312 R  0,3  0,4   0:08.71 top
+ 8989 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:08.61 top
+ 9159 devilri+  20   0   48996   4104   3376 R  0,3  0,4   0:09.80 top
+ 9769 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:09.52 top
+10433 devilri+  20   0   48996   4092   3364 R  0,3  0,4   0:08.68 top
+13661 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:08.90 top
+14120 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:04.95 top
+14614 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:08.58 top
+14984 devilri+  20   0   48996   4064   3336 R  0,3  0,4   0:09.72 top
+18603 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:07.95 top
+19991 devilri+  20   0   48996   4136   3408 R  0,3  0,4   0:08.60 top
+20884 devilri+  20   0   49000   3944   3376 R  0,3  0,4   0:05.48 top
+21082 devilri+  20   0   49000   3896   3336 R  0,3  0,4   0:09.43 top
+21853 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:07.38 top
+22007 devilri+  20   0   49000   3936   3376 R  0,3  0,4   0:08.78 top
+22484 devilri+  20   0   48996   3884   3328 R  0,3  0,4   0:09.78 top
+22937 devilri+  20   0   49000   3900   3336 R  0,3  0,4   0:06.34 top
+25878 devilri+  20   0   48992   3952   3336 R  0,3  0,4   0:12.84 top
+27268 devilri+  20   0   49000   3932   3376 R  0,3  0,4   0:10.13 top
+27958 devilri+  20   0   49000   3940   3376 R  0,3  0,4   0:06.88 top
+28697 devilri+  20   0   48996   3888   3336 R  0,3  0,4   0:10.12 top
+30343 devilri+  20   0   48976   4112   3392 R  0,3  0,4   0:03.95 top
+31625 devilri+  20   0   49000   3892   3336 D  0,3  0,4   0:09.52 top
+32554 devilri+  20   0   48992   4100   3376 R  0,3  0,4   0:12.82 top
+32606 devilri+  20   0   48996   3992   3368 R  0,3  0,4   0:12.69 top
+  606 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:08.90 top
+  750 devilri+  20   0   48980   4100   3376 R  0,1  0,4   0:03.80 top
+ 1008 devilri+  20   0   49000   3936   3376 S  0,1  0,4   0:09.54 top
+ 1517 devilri+  20   0  190084      0      0 S  0,1  0,0   4:10.87 VBoxClient
+ 1684 devilri+  20   0  356280   8068   2852 S  0,1  0,8   0:52.89 ibus-daemon
+ 1998 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.72 top
+ 2083 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:07.47 top
+ 2205 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:10.11 top
+ 2371 devilri+  20   0   48972   4052   3336 R  0,1  0,4   0:04.11 top
+ 2933 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:08.91 top
+ 3067 devilri+  20   0   48996   4000   3376 R  0,1  0,4   0:12.84 top
+ 3236 devilri+  20   0   49000   3924   3364 R  0,1  0,4   0:09.56 top
+ 3579 devilri+  20   0   48976   4064   3336 R  0,1  0,4   0:03.84 top
+ 4648 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.54 top
+ 4789 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:12.99 top
+ 6094 devilri+  20   0   49000   3996   3376 R  0,1  0,4   0:12.84 top
+ 6243 devilri+  20   0   49000   3896   3328 R  0,1  0,4   0:05.65 top
+ 6505 devilri+  20   0   48996   4056   3328 R  0,1  0,4   0:09.87 top
+ 6548 devilri+  20   0   48980   4068   3336 R  0,1  0,4   0:03.74 top
+ 7561 devilri+  20   0   49000   3908   3344 R  0,1  0,4   0:06.98 top
+ 8221 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.86 top
+ 8900 devilri+  20   0   49000   3904   3336 R  0,1  0,4   0:04.94 top
+10578 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:09.90 top
+11388 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:08.76 top
+12167 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:08.83 top
+12207 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:09.92 top
+13518 devilri+  20   0   49000   3888   3328 R  0,1  0,4   0:08.65 top
+13828 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.53 top
+13848 devilri+  20   0   49000   3944   3376 R  0,1  0,4   0:04.69 top
+15048 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:08.83 top
+15346 devilri+  20   0   48980   4060   3336 R  0,1  0,4   0:03.82 top
+16470 devilri+  20   0   48980   4092   3368 R  0,1  0,4   0:03.65 top
+16485 devilri+  20   0   48984   4052   3336 R  0,1  0,4   0:14.55 top
+16639 devilri+  20   0   48972   4020   3304 R  0,1  0,4   0:04.17 top
+16967 devilri+  20   0   19620   3220   2984 S  0,1  0,3   0:00.01 bash
+17056 devilri+  20   0   48984   4060   3328 R  0,1  0,4   0:00.03 top
+17137 devilri+  20   0   48996   4040   3312 R  0,1  0,4   0:10.12 top
+17651 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:08.86 top
+17986 devilri+  20   0   48976   4024   3304 R  0,1  0,4   0:03.93 top
+18260 devilri+  20   0   48996   4060   3336 R  0,1  0,4   0:10.64 top
+18877 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:07.86 top
+19441 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:05.79 top
+19951 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:10.94 top
+20253 devilri+  20   0   48996   4040   3312 R  0,1  0,4   0:09.81 top
+20310 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:09.84 top
+20317 devilri+  20   0   48996   3888   3336 R  0,1  0,4   0:09.60 top
+21039 devilri+  20   0   48964   4096   3368 R  0,1  0,4   0:04.60 top
+21063 devilri+  20   0   48988   4056   3336 R  0,1  0,4   0:14.57 top
+21380 devilri+  20   0   48976   4092   3376 R  0,1  0,4   0:03.94 top
+21709 devilri+  20   0   48988   4064   3344 R  0,1  0,4   0:12.91 top
+21827 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:06.38 top
+22192 root      20   0       0      0      0 I  0,1  0,0   0:00.02 kworker/u2:1
+22323 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:07.25 top
+23285 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:07.88 top
+23496 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.20 top
+23509 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:05.79 top
+23519 devilri+  20   0   48988   3976   3364 R  0,1  0,4   0:12.94 top
+24311 devilri+  20   0   48996   4060   3336 R  0,1  0,4   0:09.60 top
+24449 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.38 top
+25577 devilri+  20   0   49000   3872   3304 R  0,1  0,4   0:04.82 top
+26646 devilri+  20   0   48972   4048   3328 R  0,1  0,4   0:04.08 top
+28267 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:07.72 top
+28796 devilri+  20   0   49000   3892   3336 R  0,1  0,4   0:09.02 top
+28963 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:07.97 top
+29243 devilri+  20   0   48980   4100   3376 R  0,1  0,4   0:03.65 top
+29491 devilri+  20   0   48996   4100   3376 R  0,1  0,4   0:08.73 top
+29675 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:10.06 top
+30138 devilri+  20   0   49000   3932   3368 R  0,1  0,4   0:07.38 top
+30676 devilri+  20   0   48996   4104   3376 D  0,1  0,4   0:10.03 top
+30885 devilri+  20   0   49000   3952   3328 R  0,1  0,4   0:12.71 top
+30900 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:08.60 top
+31350 devilri+  20   0   49000   3896   3328 R  0,1  0,4   0:04.58 top
+31548 devilri+  20   0   48972   4056   3336 R  0,1  0,4   0:04.15 top
+32094 devilri+  20   0   49000   3904   3336 R  0,1  0,4   0:05.28 top
+32342 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:06.62 top
+32391 devilri+  20   0   48996   4060   3336 R  0,1  0,4   0:10.05 top
+    1 root      20   0  119668   3684   2276 S  0,0  0,4   0:04.55 systemd
+    2 root      20   0       0      0      0 S  0,0  0,0   0:00.02 kthreadd
+    4 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 mm_percpu_wq
+    9 root      20   0       0      0      0 I  0,0  0,0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0,0  0,0   0:00.47 watchdog/0
+   12 root      20   0       0      0      0 S  0,0  0,0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_tasks_kthre
+   16 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kauditd
+   17 root      20   0       0      0      0 S  0,0  0,0   0:00.11 khungtaskd
+   18 root      20   0       0      0      0 S  0,0  0,0   0:00.00 oom_reaper
+   19 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 writeback
+   20 root      20   0       0      0      0 S  0,0  0,0   0:00.01 kcompactd0
+   21 root      25   5       0      0      0 S  0,0  0,0   0:00.00 ksmd
+   22 root      39  19       0      0      0 S  0,0  0,0   0:00.00 khugepaged
+   23 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 crypto
+   24 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kintegrityd
+   25 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kblockd
+   26 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ata_sff
+   27 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 md
+   28 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 edac-poller
+   29 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 devfreq_wq
+   30 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 watchdogd
+   34 root      20   0       0      0      0 S  0,0  0,0   0:11.39 kswapd0
+   35 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/u3:0
+   36 root      20   0       0      0      0 S  0,0  0,0   0:00.00 ecryptfs-kthrea
+   78 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kthrotld
+   79 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 acpi_thermal_pm
+   80 root      20   0       0      0      0 S  0,0  0,0   0:00.01 scsi_eh_0
+   81 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_0
+   82 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_1
+   83 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_1
+   89 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ipv6_addrconf
+   98 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kstrp
+  115 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 charger_manager
+  165 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_2
+  167 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ttm_swap
+  168 root     -51   0       0      0      0 S  0,0  0,0   0:00.00 irq/18-vmwgfx
+  171 root       0 -20       0      0      0 I  0,0  0,0   0:04.42 kworker/0:1H
+  193 root      20   0       0      0      0 S  0,0  0,0   0:02.06 jbd2/sda1-8
+  194 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ext4-rsv-conver
+  229 root      20   0   28468   1068    872 S  0,0  0,1   0:00.56 systemd-journal
+  366 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 iprt-VBoxWQueue
+  566 devilri+  20   0   49000   3936   3368 R  0,0  0,4   0:05.69 top
+  601 devilri+  20   0  193044   1324   1060 S  0,0  0,1   0:00.10 gvfsd-metadata
+  610 root      20   0   28676    140      0 S  0,0  0,0   0:00.47 systemd-logind
+  612 syslog    20   0  256392    184      0 S  0,0  0,0   0:00.20 rsyslogd
+  624 root      20   0   36076   1336   1236 S  0,0  0,1   0:00.23 cron
+  626 message+  20   0   44432   2976   1516 S  0,0  0,3   0:14.08 dbus-daemon
+  652 avahi     20   0   44912    868    736 S  0,0  0,1   0:00.13 avahi-daemon
+  658 root      20   0    4396    388    372 S  0,0  0,0   0:01.67 acpid
+  664 root      20   0  282952    544     88 S  0,0  0,1   0:02.46 accounts-daemon
+  666 root      20   0  382416   6316   4980 S  0,0  0,6   0:00.47 NetworkManager
+  734 avahi     20   0   44784     20      0 S  0,0  0,0   0:00.00 avahi-daemon
+  763 root      20   0  289260   3344    904 S  0,0  0,3   0:00.75 polkitd
+  803 root      20   0  181680   1132   1132 S  0,0  0,1   0:00.19 unattended-upgr
+  853 nobody    20   0   59932     84      0 S  0,0  0,0   0:00.11 dnsmasq
+  908 devilri+  20   0   19612   2360   2160 T  0,0  0,2   0:00.00 bash
+  909 whoopsie  20   0  373992   1072   1048 S  0,0  0,1   0:00.04 whoopsie
+  911 devilri+  20   0   48868   2224   1624 T  0,0  0,2   0:00.04 top
+ 1388 root      20   0  129532      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1389 root      20   0  129692    644    644 S  0,0  0,1   0:00.00 VBoxClient
+ 1404 root      20   0  276648    336     88 S  0,0  0,0   0:00.04 lightdm
+ 1426 root      20   0  385516     40      0 S  0,0  0,0   0:22.36 VBoxService
+ 1444 root      20   0   23004    384    384 S  0,0  0,0   0:00.00 agetty
+ 1476 root      20   0  228240   1020   1020 S  0,0  0,1   0:00.01 lightdm
+ 1481 devilri+  20   0   45292   1616   1200 S  0,0  0,2   0:00.09 systemd
+ 1482 devilri+  20   0  145172      4      0 S  0,0  0,0   0:00.00 (sd-pam)
+ 1485 devilri+  20   0   53540   1944   1044 S  0,0  0,2   0:00.43 upstart
+ 1499 devilri+  20   0   57332      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1500 devilri+  20   0  191772    208      0 S  0,0  0,0   0:00.54 VBoxClient
+ 1506 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1507 devilri+  20   0   57464    260    252 S  0,0  0,0   0:00.05 VBoxClient
+ 1511 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1512 devilri+  20   0  189568      0      0 S  0,0  0,0   0:00.04 VBoxClient
+ 1516 devilri+  20   0   57332      8      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1595 root      20   0  100304   1664   1664 S  0,0  0,2   0:00.01 cupsd
+ 1596 root      20   0  274812    852    852 S  0,0  0,1   0:00.02 cups-browsed
+ 1638 devilri+  20   0   39928    560    488 S  0,0  0,1   0:00.04 upstart-udev-br
+ 1640 devilri+  20   0   43812   2140    992 S  0,0  0,2   0:10.58 dbus-daemon
+ 1652 devilri+  20   0   93416   3340   3128 S  0,0  0,3   0:00.47 window-stack-br
+ 1677 devilri+  20   0   39860     80      0 S  0,0  0,0   0:02.07 upstart-dbus-br
+ 1679 devilri+  20   0   39860    436    308 S  0,0  0,0   0:00.83 upstart-dbus-br
+ 1683 devilri+  20   0   48352     80      0 S  0,0  0,0   0:00.01 upstart-file-br
+ 1691 devilri+  20   0  212276   1760   1276 S  0,0  0,2   0:00.13 gnome-keyring-d
+ 1709 devilri+  20   0  355316    928    536 S  0,0  0,1   0:00.18 gvfsd
+ 1721 devilri+  20   0  406864    480    480 S  0,0  0,0   0:00.01 gvfsd-fuse
+ 1723 devilri+  20   0  645048  10292   6792 S  0,0  1,0   0:14.62 bamfdaemon
+ 1725 devilri+  20   0  271328   1076    844 S  0,0  0,1   0:00.02 ibus-dconf
+ 1727 devilri+  20   0  602092   7128   3812 S  0,0  0,7   0:15.13 ibus-ui-gtk3
+ 1735 devilri+  20   0  551104   1616    952 S  0,0  0,2   0:01.10 ibus-x11
+ 1740 devilri+  20   0  173604    496    336 S  0,0  0,0   0:03.77 gpg-agent
+ 1751 devilri+  20   0  338000    880    880 S  0,0  0,1   0:00.00 at-spi-bus-laun
+ 1758 devilri+  20   0   43012   1452   1132 S  0,0  0,1   0:00.91 dbus-daemon
+ 1765 devilri+  20   0  206972   2000   1588 S  0,0  0,2   0:02.78 at-spi2-registr
+ 1771 devilri+  20   0  656040  11636   6176 S  0,0  1,2   0:10.36 hud-service
+ 1773 devilri+  20   0  934636   6344   3504 S  0,0  0,6   0:06.14 unity-settings-
+ 1779 devilri+  20   0  640344   1540    852 S  0,0  0,2   0:00.62 gnome-session-b
+ 1791 devilri+  20   0  577336  13128   5940 S  0,0  1,3   0:16.66 unity-panel-ser
+ 1814 root      20   0  354212   1512   1072 S  0,0  0,1   0:01.74 upowerd
+ 1829 devilri+  20   0  195588    548    224 S  0,0  0,1   0:14.44 ibus-engine-sim
+ 1831 devilri+  20   0  361484   1024   1024 S  0,0  0,1   0:00.01 indicator-messa
+ 1832 devilri+  20   0  414180    392    392 S  0,0  0,0   0:00.01 indicator-bluet
+ 1833 devilri+  20   0  576540   1268    580 S  0,0  0,1   0:00.38 indicator-power
+ 1834 devilri+  20   0  781636   3912   2564 S  0,0  0,4   0:01.97 indicator-datet
+ 1835 devilri+  20   0  664384   2312    780 S  0,0  0,2   0:01.45 indicator-keybo
+ 1836 devilri+  20   0  678536    748    240 S  0,0  0,1   0:00.09 indicator-sound
+ 1837 devilri+  20   0  554444   2140   1272 S  0,0  0,2   0:01.10 indicator-print
+ 1838 devilri+  20   0  632260   2556   1920 S  0,0  0,3   0:00.37 indicator-sessi
+ 1848 devilri+  20   0  178768   1512   1036 S  0,0  0,1   0:00.89 dconf-service
+ 1856 devilri+  20   0  403148   1696   1372 S  0,0  0,2   0:00.07 indicator-appli
+ 1937 devilri+  20   0  922284   1104   1104 S  0,0  0,1   0:00.14 evolution-sourc
+ 1942 colord    20   0  308208   1000   1000 S  0,0  0,1   0:00.15 colord
+ 1953 devilri+   9 -11  442136   1716   1508 S  0,0  0,2   0:01.82 pulseaudio
+ 1954 rtkit     21   1  183544    612    612 S  0,0  0,1   0:01.04 rtkit-daemon
+ 1961 devilri+  20   0  870076   1180   1180 S  0,0  0,1   0:00.25 evolution-calen
+ 1984 devilri+  20   0  604620   4580   3236 S  0,0  0,5   0:01.24 nm-applet
+ 1992 devilri+  20   0  292512    584      0 S  0,0  0,1   0:00.17 gvfs-udisks2-vo
+ 2005 devilri+  20   0  969240  19736   7468 S  0,0  2,0   0:21.16 nautilus
+ 2014 devilri+  20   0  583932   1708    900 S  0,0  0,2   0:01.37 unity-fallback-
+ 2016 root      20   0  432408    968    668 S  0,0  0,1   0:00.74 udisksd
+ 2020 devilri+  20   0  436432   2548   1856 S  0,0  0,3   0:01.22 polkit-gnome-au
+ 2047 devilri+  20   0 1043964  97860  10408 S  0,0  9,7   0:37.03 gnome-software
+ 2050 devilri+  20   0  823060    652      0 S  0,0  0,1   0:00.16 evolution-calen
+ 2065 devilri+  20   0  807308    864      0 S  0,0  0,1   0:00.18 evolution-calen
+ 2070 devilri+  20   0  697636   1016   1016 S  0,0  0,1   0:00.05 evolution-addre
+ 2089 devilri+  20   0  266592    960    632 S  0,0  0,1   0:00.08 gvfs-mtp-volume
+ 2095 devilri+  20   0  264604    628    312 S  0,0  0,1   0:00.08 gvfs-goa-volume
+ 2101 devilri+  20   0  410676    332     16 S  0,0  0,0   0:00.09 gvfs-afc-volume
+ 2140 devilri+  20   0  278788    644    320 S  0,0  0,1   0:00.09 gvfs-gphoto2-vo
+ 2161 devilri+  20   0  773136   1020   1020 S  0,0  0,1   0:00.05 evolution-addre
+ 2189 devilri+  20   0  357644    860    212 S  0,0  0,1   0:00.26 gvfsd-trash
+ 2215 devilri+  20   0  559316   2832   2152 S  0,0  0,3   0:03.16 zeitgeist-datah
+ 2218 root      20   0  511956  21016    848 S  0,0  2,1   0:03.61 fwupd
+ 2225 devilri+  20   0    4504      0      0 S  0,0  0,0   0:00.00 sh
+ 2237 devilri+  20   0  410228   4600   3716 S  0,0  0,5   0:01.42 zeitgeist-daemo
+ 2248 devilri+  20   0  317268   4724   3496 S  0,0  0,5   0:02.28 zeitgeist-fts
+ 2313 devilri+  20   0  531208   8696   6908 S  0,0  0,9   0:04.12 update-notifier
+ 2406 devilri+  20   0  524448    696    696 S  0,0  0,1   0:00.04 deja-dup-monito
+ 3161 lp        20   0   81244   1312   1312 S  0,0  0,1   0:00.00 dbus
+ 3791 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:09.72 top
+ 4174 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:10.19 top
+ 5428 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+ 5429 devilri+  20   0   19616   1584   1348 T  0,0  0,2   0:00.00 bash
+ 5430 devilri+  20   0   14512     64      0 T  0,0  0,0   0:00.00 cat
+ 5431 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+ 6421 devilri+  20   0  360004   1700   1192 S  0,0  0,2   0:00.03 gvfsd-network
+ 6480 devilri+  20   0  368784    932    932 S  0,0  0,1   0:00.03 gvfsd-dnssd
+ 7333 devilri+  20   0   29736   2920   2424 S  0,0  0,3   0:00.47 bash
+ 8222 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+ 8822 root      20   0   45436     52      0 S  0,0  0,0   0:00.26 systemd-udevd
+ 8994 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:2
+ 9788 root      20   0       0      0      0 I  0,0  0,0   0:03.84 kworker/0:0
+11234 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+11235 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+11321 devilri+  20   0   49000   3896   3336 R  0,0  0,4   0:09.48 top
+12479 devilri+  20   0   49000   3944   3376 R  0,0  0,4   0:05.26 top
+12834 root      20   0   16128   3716   2864 S  0,0  0,4   0:00.01 dhclient
+13097 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:2
+13108 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:3
+14233 devilri+  20   0  880276  39768  28700 S  0,0  3,9   0:29.06 gedit
+15260 devilri+  20   0   49000   3900   3336 R  0,0  0,4   0:06.10 top
+16051 root      20   0   47624   1560   1164 S  0,0  0,2   0:00.06 rpcbind
+16058 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:12.58 top
+17563 devilri+  20   0   48968   4092   3376 R  0,0  0,4   0:04.51 top
+19012 devilri+  20   0   29696   4352   2424 S  0,0  0,4   0:00.07 bash
+20219 root      20   0   62096   1512   1508 S  0,0  0,1   0:00.00 sudo
+21710 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+22012 root      20   0       0      0      0 I  0,0  0,0   0:00.57 kworker/0:1
+22829 root      20   0   14512      0      0 S  0,0  0,0   0:00.00 cat
+23278 devilri+  20   0   29696   4240   2312 S  0,0  0,4   0:00.03 bash
+23520 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.12 tail
+23999 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:0
+24868 devilri+  30  10  741464  23928   3516 S  0,0  2,4   0:10.86 update-manager
+25879 devilri+  20   0   14392    732    664 S  0,0  0,1   0:00.11 tail
+26791 devilri+  20   0   49000   3944   3376 R  0,0  0,4   0:05.61 top
+28810 devilri+  20   0   48996   4104   3376 R  0,0  0,4   0:12.82 top
+31596 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:08.79 top
+32253 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfsalloc
+32254 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfs_mru_cache
+32268 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsIO
+32270 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsCommit
+32271 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsSync
+32555 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+
+top - 23:51:50 up 1 day, 21:55,  1 user,  load average: 79,76, 76,31, 73,08
+Tasks: 306 total, 109 running, 153 sleeping,   8 stopped,   0 zombie
+%Cpu(s): 65,5 us, 34,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1008868 total,    61412 free,   584844 used,   362612 buff/cache
+KiB Swap:   998396 total,   492028 free,   506368 used.   244544 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2764 devilri+  20   0  640420   4804   2552 R 11,7  0,5 262:48.47 mplayer
+17322 devilri+  20   0  640428   4812   2540 R 11,2  0,5 262:47.37 mplayer
+31997 devilri+  20   0   19748   2472   2224 R 10,9  0,2 376:46.07 bash
+ 7031 devilri+  20   0   19752   2396   2148 R  9,8  0,2 387:16.29 bash
+ 1935 devilri+  20   0 1341308 114556  14468 R  8,9 11,4 362:22.37 compiz
+ 1447 root      20   0  468276  51280   3080 S  2,6  5,1  42:12.97 Xorg
+    7 root      20   0       0      0      0 S  0,6  0,0  11:36.03 ksoftirqd/0
+ 2289 devilri+  20   0  672688  19680   9220 S  0,5  2,0   1:14.97 gnome-terminal-
+    8 root      20   0       0      0      0 I  0,4  0,0   9:05.44 rcu_sched
+  606 devilri+  20   0   49000   3896   3336 S  0,2  0,4   0:08.92 top
+ 1008 devilri+  20   0   49000   3936   3376 R  0,2  0,4   0:09.56 top
+ 1684 devilri+  20   0  356280   8068   2852 S  0,2  0,8   0:52.91 ibus-daemon
+ 2933 devilri+  20   0   48996   4104   3376 S  0,2  0,4   0:08.93 top
+ 3670 devilri+  20   0   48996   4036   3312 S  0,2  0,4   0:08.52 top
+ 4174 devilri+  20   0   48996   4064   3336 R  0,2  0,4   0:10.21 top
+ 5854 devilri+  20   0   49000   3940   3376 R  0,2  0,4   0:06.49 top
+ 6094 devilri+  20   0   49000   3996   3376 R  0,2  0,4   0:12.86 top
+ 8900 devilri+  20   0   49000   3904   3336 R  0,2  0,4   0:04.96 top
+ 8989 devilri+  20   0   48996   4064   3336 R  0,2  0,4   0:08.63 top
+10578 devilri+  20   0   48996   4064   3336 R  0,2  0,4   0:09.92 top
+11321 devilri+  20   0   49000   3896   3336 R  0,2  0,4   0:09.50 top
+12479 devilri+  20   0   49000   3944   3376 R  0,2  0,4   0:05.28 top
+15260 devilri+  20   0   49000   3900   3336 R  0,2  0,4   0:06.12 top
+15346 devilri+  20   0   48980   4060   3336 R  0,2  0,4   0:03.84 top
+16485 devilri+  20   0   48984   4052   3336 R  0,2  0,4   0:14.57 top
+16639 devilri+  20   0   48972   4020   3304 R  0,2  0,4   0:04.19 top
+17651 devilri+  20   0   48996   4104   3376 R  0,2  0,4   0:08.88 top
+17986 devilri+  20   0   48976   4024   3304 R  0,2  0,4   0:03.95 top
+18260 devilri+  20   0   48996   4060   3336 R  0,2  0,4   0:10.66 top
+20310 devilri+  20   0   48996   4104   3376 R  0,2  0,4   0:09.86 top
+21039 devilri+  20   0   48964   4096   3368 R  0,2  0,4   0:04.62 top
+21827 devilri+  20   0   49000   3900   3336 R  0,2  0,4   0:06.40 top
+22007 devilri+  20   0   49000   3936   3376 R  0,2  0,4   0:08.80 top
+23496 devilri+  20   0   49000   3940   3376 R  0,2  0,4   0:06.22 top
+23519 devilri+  20   0   48988   3976   3364 R  0,2  0,4   0:12.96 top
+28267 devilri+  20   0   49000   3936   3376 R  0,2  0,4   0:07.74 top
+28810 devilri+  20   0   48996   4104   3376 R  0,2  0,4   0:12.84 top
+29243 devilri+  20   0   48980   4100   3376 R  0,2  0,4   0:03.67 top
+30138 devilri+  20   0   49000   3932   3368 D  0,2  0,4   0:07.40 top
+30676 devilri+  20   0   48996   4104   3376 D  0,2  0,4   0:10.05 top
+30900 devilri+  20   0   49000   3896   3336 D  0,2  0,4   0:08.62 top
+31350 devilri+  20   0   49000   3896   3328 R  0,2  0,4   0:04.60 top
+31548 devilri+  20   0   48972   4056   3336 R  0,2  0,4   0:04.17 top
+  566 devilri+  20   0   49000   3936   3368 S  0,1  0,4   0:05.70 top
+  750 devilri+  20   0   48980   4100   3376 R  0,1  0,4   0:03.81 top
+ 1426 root      20   0  385516     40      0 S  0,1  0,0   0:22.37 VBoxService
+ 1517 devilri+  20   0  190084      0      0 S  0,1  0,0   4:10.88 VBoxClient
+ 1829 devilri+  20   0  195588    548    224 S  0,1  0,1   0:14.45 ibus-engine-sim
+ 1998 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.73 top
+ 2083 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:07.48 top
+ 2205 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:10.12 top
+ 2371 devilri+  20   0   48972   4052   3336 R  0,1  0,4   0:04.12 top
+ 3236 devilri+  20   0   49000   3924   3364 R  0,1  0,4   0:09.57 top
+ 3579 devilri+  20   0   48976   4064   3336 R  0,1  0,4   0:03.85 top
+ 3791 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:09.73 top
+ 4523 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:05.42 top
+ 4648 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.55 top
+ 4789 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:13.00 top
+ 6240 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:07.97 top
+ 6243 devilri+  20   0   49000   3896   3328 R  0,1  0,4   0:05.66 top
+ 6505 devilri+  20   0   48996   4056   3328 R  0,1  0,4   0:09.88 top
+ 6548 devilri+  20   0   48980   4068   3336 S  0,1  0,4   0:03.75 top
+ 6731 devilri+  20   0   49000   3904   3344 R  0,1  0,4   0:07.86 top
+ 7110 devilri+  20   0   48968   4092   3376 R  0,1  0,4   0:04.45 top
+ 7561 devilri+  20   0   49000   3908   3344 R  0,1  0,4   0:06.99 top
+ 8221 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.87 top
+ 8715 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:06.03 top
+ 8871 devilri+  20   0   49000   3872   3312 R  0,1  0,4   0:08.72 top
+ 8994 root      20   0       0      0      0 I  0,1  0,0   0:00.17 kworker/u2:2
+ 9159 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:09.81 top
+ 9769 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:09.53 top
+10433 devilri+  20   0   48996   4092   3364 R  0,1  0,4   0:08.69 top
+11388 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:08.77 top
+12167 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:08.84 top
+12207 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:09.93 top
+13518 devilri+  20   0   49000   3888   3328 R  0,1  0,4   0:08.66 top
+13828 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.54 top
+13848 devilri+  20   0   49000   3944   3376 R  0,1  0,4   0:04.70 top
+14120 devilri+  20   0   49000   3944   3376 R  0,1  0,4   0:04.96 top
+15048 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:08.84 top
+16058 devilri+  20   0   48996   4104   3376 R  0,1  0,4   0:12.59 top
+17056 devilri+  20   0   48984   4060   3328 R  0,1  0,4   0:00.04 top
+17137 devilri+  20   0   48996   4040   3312 R  0,1  0,4   0:10.13 top
+17563 devilri+  20   0   48968   4092   3376 R  0,1  0,4   0:04.52 top
+18603 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:07.96 top
+18877 devilri+  20   0   49000   3936   3376 R  0,1  0,4   0:07.87 top
+19441 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:05.80 top
+19951 devilri+  20   0   48996   4064   3336 R  0,1  0,4   0:10.95 top
+19991 devilri+  20   0   48996   4136   3408 R  0,1  0,4   0:08.61 top
+20253 devilri+  20   0   48996   4040   3312 R  0,1  0,4   0:09.82 top
+20317 devilri+  20   0   48996   3888   3336 D  0,1  0,4   0:09.61 top
+20884 devilri+  20   0   49000   3944   3376 R  0,1  0,4   0:05.49 top
+21063 devilri+  20   0   48988   4056   3336 R  0,1  0,4   0:14.58 top
+21082 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:09.44 top
+21380 devilri+  20   0   48976   4092   3376 R  0,1  0,4   0:03.95 top
+21709 devilri+  20   0   48988   4064   3344 R  0,1  0,4   0:12.92 top
+21853 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:07.39 top
+22323 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:07.26 top
+22937 devilri+  20   0   49000   3900   3336 R  0,1  0,4   0:06.35 top
+23285 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:07.89 top
+23509 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:05.80 top
+24311 devilri+  20   0   48996   4060   3336 R  0,1  0,4   0:09.61 top
+24449 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.39 top
+25577 devilri+  20   0   49000   3872   3304 R  0,1  0,4   0:04.83 top
+25878 devilri+  20   0   48992   3952   3336 R  0,1  0,4   0:12.85 top
+26646 devilri+  20   0   48972   4048   3328 R  0,1  0,4   0:04.09 top
+26791 devilri+  20   0   49000   3944   3376 R  0,1  0,4   0:05.62 top
+27268 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:10.14 top
+27958 devilri+  20   0   49000   3940   3376 R  0,1  0,4   0:06.89 top
+28697 devilri+  20   0   48996   3888   3336 R  0,1  0,4   0:10.13 top
+28796 devilri+  20   0   49000   3892   3336 R  0,1  0,4   0:09.03 top
+28963 devilri+  20   0   49000   3896   3336 R  0,1  0,4   0:07.98 top
+29491 devilri+  20   0   48996   4100   3376 R  0,1  0,4   0:08.74 top
+29675 devilri+  20   0   49000   3932   3376 R  0,1  0,4   0:10.07 top
+31596 devilri+  20   0   49000   3936   3376 D  0,1  0,4   0:08.80 top
+32094 devilri+  20   0   49000   3904   3336 R  0,1  0,4   0:05.29 top
+32391 devilri+  20   0   48996   4060   3336 D  0,1  0,4   0:10.06 top
+32554 devilri+  20   0   48992   4100   3376 R  0,1  0,4   0:12.83 top
+32606 devilri+  20   0   48996   3992   3368 R  0,1  0,4   0:12.70 top
+    1 root      20   0  119668   3684   2276 S  0,0  0,4   0:04.55 systemd
+    2 root      20   0       0      0      0 S  0,0  0,0   0:00.02 kthreadd
+    4 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/0:0H
+    6 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 mm_percpu_wq
+    9 root      20   0       0      0      0 I  0,0  0,0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0,0  0,0   0:00.47 watchdog/0
+   12 root      20   0       0      0      0 S  0,0  0,0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_tasks_kthre
+   16 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kauditd
+   17 root      20   0       0      0      0 S  0,0  0,0   0:00.11 khungtaskd
+   18 root      20   0       0      0      0 S  0,0  0,0   0:00.00 oom_reaper
+   19 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 writeback
+   20 root      20   0       0      0      0 S  0,0  0,0   0:00.01 kcompactd0
+   21 root      25   5       0      0      0 S  0,0  0,0   0:00.00 ksmd
+   22 root      39  19       0      0      0 S  0,0  0,0   0:00.00 khugepaged
+   23 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 crypto
+   24 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kintegrityd
+   25 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kblockd
+   26 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ata_sff
+   27 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 md
+   28 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 edac-poller
+   29 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 devfreq_wq
+   30 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 watchdogd
+   34 root      20   0       0      0      0 S  0,0  0,0   0:11.39 kswapd0
+   35 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kworker/u3:0
+   36 root      20   0       0      0      0 S  0,0  0,0   0:00.00 ecryptfs-kthrea
+   78 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kthrotld
+   79 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 acpi_thermal_pm
+   80 root      20   0       0      0      0 S  0,0  0,0   0:00.01 scsi_eh_0
+   81 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_0
+   82 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_1
+   83 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_1
+   89 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ipv6_addrconf
+   98 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 kstrp
+  115 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 charger_manager
+  165 root      20   0       0      0      0 S  0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 scsi_tmf_2
+  167 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ttm_swap
+  168 root     -51   0       0      0      0 S  0,0  0,0   0:00.00 irq/18-vmwgfx
+  171 root       0 -20       0      0      0 I  0,0  0,0   0:04.42 kworker/0:1H
+  193 root      20   0       0      0      0 S  0,0  0,0   0:02.06 jbd2/sda1-8
+  194 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 ext4-rsv-conver
+  229 root      20   0   28468   1068    872 S  0,0  0,1   0:00.56 systemd-journal
+  366 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 iprt-VBoxWQueue
+  601 devilri+  20   0  193044   1324   1060 S  0,0  0,1   0:00.10 gvfsd-metadata
+  610 root      20   0   28676    140      0 S  0,0  0,0   0:00.47 systemd-logind
+  612 syslog    20   0  256392    184      0 S  0,0  0,0   0:00.20 rsyslogd
+  624 root      20   0   36076   1336   1236 S  0,0  0,1   0:00.23 cron
+  626 message+  20   0   44432   2976   1516 S  0,0  0,3   0:14.08 dbus-daemon
+  652 avahi     20   0   44912    868    736 S  0,0  0,1   0:00.13 avahi-daemon
+  658 root      20   0    4396    388    372 S  0,0  0,0   0:01.67 acpid
+  664 root      20   0  282952    544     88 S  0,0  0,1   0:02.46 accounts-daemon
+  666 root      20   0  382416   6316   4980 S  0,0  0,6   0:00.47 NetworkManager
+  734 avahi     20   0   44784     20      0 S  0,0  0,0   0:00.00 avahi-daemon
+  763 root      20   0  289260   3344    904 S  0,0  0,3   0:00.75 polkitd
+  803 root      20   0  181680   1132   1132 S  0,0  0,1   0:00.19 unattended-upgr
+  853 nobody    20   0   59932     84      0 S  0,0  0,0   0:00.11 dnsmasq
+  908 devilri+  20   0   19612   2360   2160 T  0,0  0,2   0:00.00 bash
+  909 whoopsie  20   0  373992   1072   1048 S  0,0  0,1   0:00.04 whoopsie
+  911 devilri+  20   0   48868   2224   1624 T  0,0  0,2   0:00.04 top
+ 1388 root      20   0  129532      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1389 root      20   0  129692    644    644 S  0,0  0,1   0:00.00 VBoxClient
+ 1404 root      20   0  276648    336     88 S  0,0  0,0   0:00.04 lightdm
+ 1444 root      20   0   23004    384    384 S  0,0  0,0   0:00.00 agetty
+ 1476 root      20   0  228240   1020   1020 S  0,0  0,1   0:00.01 lightdm
+ 1481 devilri+  20   0   45292   1616   1200 S  0,0  0,2   0:00.09 systemd
+ 1482 devilri+  20   0  145172      4      0 S  0,0  0,0   0:00.00 (sd-pam)
+ 1485 devilri+  20   0   53540   1944   1044 S  0,0  0,2   0:00.43 upstart
+ 1499 devilri+  20   0   57332      4      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1500 devilri+  20   0  191772    208      0 S  0,0  0,0   0:00.54 VBoxClient
+ 1506 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1507 devilri+  20   0   57464    260    252 S  0,0  0,0   0:00.05 VBoxClient
+ 1511 devilri+  20   0   57332     16      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1512 devilri+  20   0  189568      0      0 S  0,0  0,0   0:00.04 VBoxClient
+ 1516 devilri+  20   0   57332      8      0 S  0,0  0,0   0:00.00 VBoxClient
+ 1595 root      20   0  100304   1664   1664 S  0,0  0,2   0:00.01 cupsd
+ 1596 root      20   0  274812    852    852 S  0,0  0,1   0:00.02 cups-browsed
+ 1638 devilri+  20   0   39928    560    488 S  0,0  0,1   0:00.04 upstart-udev-br
+ 1640 devilri+  20   0   43812   2140    992 S  0,0  0,2   0:10.58 dbus-daemon
+ 1652 devilri+  20   0   93416   3340   3128 S  0,0  0,3   0:00.47 window-stack-br
+ 1677 devilri+  20   0   39860     80      0 S  0,0  0,0   0:02.07 upstart-dbus-br
+ 1679 devilri+  20   0   39860    436    308 S  0,0  0,0   0:00.83 upstart-dbus-br
+ 1683 devilri+  20   0   48352     80      0 S  0,0  0,0   0:00.01 upstart-file-br
+ 1691 devilri+  20   0  212276   1760   1276 S  0,0  0,2   0:00.13 gnome-keyring-d
+ 1709 devilri+  20   0  355316    928    536 S  0,0  0,1   0:00.18 gvfsd
+ 1721 devilri+  20   0  406864    480    480 S  0,0  0,0   0:00.01 gvfsd-fuse
+ 1723 devilri+  20   0  645048  10292   6792 S  0,0  1,0   0:14.62 bamfdaemon
+ 1725 devilri+  20   0  271328   1076    844 S  0,0  0,1   0:00.02 ibus-dconf
+ 1727 devilri+  20   0  602092   7128   3812 S  0,0  0,7   0:15.13 ibus-ui-gtk3
+ 1735 devilri+  20   0  551104   1616    952 S  0,0  0,2   0:01.10 ibus-x11
+ 1740 devilri+  20   0  173604    496    336 S  0,0  0,0   0:03.77 gpg-agent
+ 1751 devilri+  20   0  338000    880    880 S  0,0  0,1   0:00.00 at-spi-bus-laun
+ 1758 devilri+  20   0   43012   1452   1132 S  0,0  0,1   0:00.91 dbus-daemon
+ 1765 devilri+  20   0  206972   2000   1588 S  0,0  0,2   0:02.78 at-spi2-registr
+ 1771 devilri+  20   0  656040  11636   6176 S  0,0  1,2   0:10.36 hud-service
+ 1773 devilri+  20   0  934636   6344   3504 S  0,0  0,6   0:06.14 unity-settings-
+ 1779 devilri+  20   0  640344   1540    852 S  0,0  0,2   0:00.62 gnome-session-b
+ 1791 devilri+  20   0  577336  13128   5940 S  0,0  1,3   0:16.66 unity-panel-ser
+ 1814 root      20   0  354212   1512   1072 S  0,0  0,1   0:01.74 upowerd
+ 1831 devilri+  20   0  361484   1024   1024 S  0,0  0,1   0:00.01 indicator-messa
+ 1832 devilri+  20   0  414180    392    392 S  0,0  0,0   0:00.01 indicator-bluet
+ 1833 devilri+  20   0  576540   1268    580 S  0,0  0,1   0:00.38 indicator-power
+ 1834 devilri+  20   0  781636   3912   2564 S  0,0  0,4   0:01.97 indicator-datet
+ 1835 devilri+  20   0  664384   2312    780 S  0,0  0,2   0:01.45 indicator-keybo
+ 1836 devilri+  20   0  678536    748    240 S  0,0  0,1   0:00.09 indicator-sound
+ 1837 devilri+  20   0  554444   2140   1272 S  0,0  0,2   0:01.10 indicator-print
+ 1838 devilri+  20   0  632260   2556   1920 S  0,0  0,3   0:00.37 indicator-sessi
+ 1848 devilri+  20   0  178768   1512   1036 S  0,0  0,1   0:00.89 dconf-service
+ 1856 devilri+  20   0  403148   1696   1372 S  0,0  0,2   0:00.07 indicator-appli
+ 1937 devilri+  20   0  922284   1104   1104 S  0,0  0,1   0:00.14 evolution-sourc
+ 1942 colord    20   0  308208   1000   1000 S  0,0  0,1   0:00.15 colord
+ 1953 devilri+   9 -11  442136   1716   1508 S  0,0  0,2   0:01.82 pulseaudio
+ 1954 rtkit     21   1  183544    612    612 S  0,0  0,1   0:01.04 rtkit-daemon
+ 1961 devilri+  20   0  870076   1180   1180 S  0,0  0,1   0:00.25 evolution-calen
+ 1984 devilri+  20   0  604620   4580   3236 S  0,0  0,5   0:01.24 nm-applet
+ 1992 devilri+  20   0  292512    584      0 S  0,0  0,1   0:00.17 gvfs-udisks2-vo
+ 2005 devilri+  20   0  969240  19736   7468 S  0,0  2,0   0:21.16 nautilus
+ 2014 devilri+  20   0  583932   1708    900 S  0,0  0,2   0:01.37 unity-fallback-
+ 2016 root      20   0  432408    968    668 S  0,0  0,1   0:00.74 udisksd
+ 2020 devilri+  20   0  436432   2548   1856 S  0,0  0,3   0:01.22 polkit-gnome-au
+ 2047 devilri+  20   0 1043964  97860  10408 S  0,0  9,7   0:37.03 gnome-software
+ 2050 devilri+  20   0  823060    652      0 S  0,0  0,1   0:00.16 evolution-calen
+ 2065 devilri+  20   0  807308    864      0 S  0,0  0,1   0:00.18 evolution-calen
+ 2070 devilri+  20   0  697636   1016   1016 S  0,0  0,1   0:00.05 evolution-addre
+ 2089 devilri+  20   0  266592    960    632 S  0,0  0,1   0:00.08 gvfs-mtp-volume
+ 2095 devilri+  20   0  264604    628    312 S  0,0  0,1   0:00.08 gvfs-goa-volume
+ 2101 devilri+  20   0  410676    332     16 S  0,0  0,0   0:00.09 gvfs-afc-volume
+ 2140 devilri+  20   0  278788    644    320 S  0,0  0,1   0:00.09 gvfs-gphoto2-vo
+ 2161 devilri+  20   0  773136   1020   1020 S  0,0  0,1   0:00.05 evolution-addre
+ 2189 devilri+  20   0  357644    860    212 S  0,0  0,1   0:00.26 gvfsd-trash
+ 2215 devilri+  20   0  559316   2832   2152 S  0,0  0,3   0:03.16 zeitgeist-datah
+ 2218 root      20   0  511956  21016    848 S  0,0  2,1   0:03.61 fwupd
+ 2225 devilri+  20   0    4504      0      0 S  0,0  0,0   0:00.00 sh
+ 2237 devilri+  20   0  410228   4600   3716 S  0,0  0,5   0:01.42 zeitgeist-daemo
+ 2248 devilri+  20   0  317268   4724   3496 S  0,0  0,5   0:02.28 zeitgeist-fts
+ 2313 devilri+  20   0  531208   8696   6908 S  0,0  0,9   0:04.12 update-notifier
+ 2406 devilri+  20   0  524448    696    696 S  0,0  0,1   0:00.04 deja-dup-monito
+ 3067 devilri+  20   0   48996   4000   3376 R  0,0  0,4   0:12.84 top
+ 3161 lp        20   0   81244   1312   1312 S  0,0  0,1   0:00.00 dbus
+ 5428 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+ 5429 devilri+  20   0   19616   1584   1348 T  0,0  0,2   0:00.00 bash
+ 5430 devilri+  20   0   14512     64      0 T  0,0  0,0   0:00.00 cat
+ 5431 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+ 5647 devilri+  20   0   48964   4104   3376 R  0,0  0,4   0:04.69 top
+ 6421 devilri+  20   0  360004   1700   1192 S  0,0  0,2   0:00.03 gvfsd-network
+ 6480 devilri+  20   0  368784    932    932 S  0,0  0,1   0:00.03 gvfsd-dnssd
+ 7333 devilri+  20   0   29736   2920   2424 S  0,0  0,3   0:00.47 bash
+ 8222 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+ 8822 root      20   0   45436     52      0 S  0,0  0,0   0:00.26 systemd-udevd
+ 9788 root      20   0       0      0      0 I  0,0  0,0   0:03.84 kworker/0:0
+11234 devilri+  20   0   19608   2360   2160 T  0,0  0,2   0:00.00 bash
+11235 devilri+  20   0   14368     68      0 T  0,0  0,0   0:00.00 head
+12834 root      20   0   16128   3716   2864 S  0,0  0,4   0:00.01 dhclient
+13097 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:2
+13108 root      20   0       0      0      0 I  0,0  0,0   0:00.00 kworker/0:3
+13661 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:08.90 top
+14233 devilri+  20   0  880276  39768  28700 S  0,0  3,9   0:29.06 gedit
+14614 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:08.58 top
+14984 devilri+  20   0   48996   4064   3336 R  0,0  0,4   0:09.72 top
+16051 root      20   0   47624   1560   1164 S  0,0  0,2   0:00.06 rpcbind
+16470 devilri+  20   0   48980   4092   3368 R  0,0  0,4   0:03.65 top
+16967 devilri+  20   0   19620   3220   2984 S  0,0  0,3   0:00.01 bash
+19012 devilri+  20   0   29696   4352   2424 S  0,0  0,4   0:00.07 bash
+20219 root      20   0   62096   1512   1508 S  0,0  0,1   0:00.00 sudo
+21710 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+22012 root      20   0       0      0      0 I  0,0  0,0   0:00.57 kworker/0:1
+22192 root      20   0       0      0      0 I  0,0  0,0   0:00.02 kworker/u2:1
+22484 devilri+  20   0   48996   3884   3328 R  0,0  0,4   0:09.78 top
+22829 root      20   0   14512      0      0 S  0,0  0,0   0:00.00 cat
+23278 devilri+  20   0   29696   4240   2312 S  0,0  0,4   0:00.03 bash
+23520 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.12 tail
+23999 root      20   0       0      0      0 I  0,0  0,0   0:00.16 kworker/u2:0
+24868 devilri+  30  10  741464  23928   3516 S  0,0  2,4   0:10.86 update-manager
+25879 devilri+  20   0   14392    732    664 S  0,0  0,1   0:00.11 tail
+30343 devilri+  20   0   48976   4112   3392 R  0,0  0,4   0:03.95 top
+30885 devilri+  20   0   49000   3952   3328 R  0,0  0,4   0:12.71 top
+31625 devilri+  20   0   49000   3892   3336 D  0,0  0,4   0:09.52 top
+32253 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfsalloc
+32254 root       0 -20       0      0      0 I  0,0  0,0   0:00.00 xfs_mru_cache
+32268 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsIO
+32270 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsCommit
+32271 root      20   0       0      0      0 S  0,0  0,0   0:00.00 jfsSync
+32342 devilri+  20   0   49000   3936   3376 R  0,0  0,4   0:06.62 top
+32555 devilri+  20   0   14392    700    632 S  0,0  0,1   0:00.11 tail
+
+
